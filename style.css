@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    height: 100vh; /* Ajusta la altura al 100% del viewport */
+    min-width: 100%;
+    background-color: rgb(10, 10, 20);
+  }
+  
+  h1 {
+    color: aliceblue;
+    text-align: center; /* Centra el texto horizontalmente */
+    font-size: bold; /* Ajusta el tamaño del encabezado según tus necesidades */
+  }
+  .wrapper {
+    flex: 1; /* Esto hará que el div ocupe todo el espacio disponible verticalmente en .container */
+  }
+  video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center;
+    max-width: 100%; /* Asegura que el video no se desborde del contenedor */
+    width: 100%; /* Asegura que el video ocupe todo el ancho del contenedor */
+    height: 80%; /* Mantiene la relación de aspecto original */
+  }
+  
