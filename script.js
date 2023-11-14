@@ -4,10 +4,15 @@ const songData = [
         artist: "Library Music",
         src: "Cha",
     },
+    // {
+    //     name: "De musica ligera",
+    //     artist: "Library Music",
+    //     src: "De musica ligera",
+    // },
     {
         name: "De musica ligera",
         artist: "Library Music",
-        src: "De musica ligera",
+        src: "DeMusicaLigera",
     },
 ];
 

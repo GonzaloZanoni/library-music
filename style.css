@@ -9,7 +9,36 @@
 html{
   font-size: 62,5%;
 }
+h1{
+  font-size: 2rem;
+  color: #bcd70c;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #151515;
+  border-radius: 5rem;
+}
 
+h3{
+  font-size: 1rem;
+  color: #bcd70c;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  padding: .5rem;
+  margin: 2px;
+  /* background-color: #2b2c2e; */
+  border-radius: 5rem;
+  gap: 10px;
+}
+.name{
+  gap:5px;
+  background-color: #151515;
+  border-radius: 2rem;
+  /* display: flex;
+  align-items: center; */
+}
 .container {
   width: 100%;
   min-width: 100%;
@@ -309,4 +338,17 @@ html{
     font-size: 1rem;
     color: #a8a9ab;
   }
+}
+
+.player-body{
+  width: 100%;
+  height: 100%;
+  
+}
+.player-body video {
+  width: 100%;
+  height: 100%;
+  /* border-radius: 1rem;  */
+  /* Ajusta según tus preferencias */
+  /* Otros estilos para el reproductor de video */
 }
